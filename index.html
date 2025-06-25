@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paw Haven</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Animal Shelter</h1>
+  </header>
+  
+  <main>
+    <!-- Filter Section -->
+    <section id="filter">
+      <label for="pet-type">Filter by Type:</label>
+      <select id="pet-type">
+        <option value="all">All</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+      </select>
+      <button id="refresh-pets">Refresh Pets</button>
+    </section>
+
+    <!-- Adoptable Pets Section -->
+    <section id="pets">
+      <h2>Adoptable Pets</h2>
+      <div id="pet-list"></div>
+    </section>
+
+    <!-- Contact & Location Information Section -->
+    <section id="contact-location">
+      <h2>Contact & Location Information</h2>
+      <p><strong>Address:</strong> 1234 Shelter Lane, Animal City, AN 56789</p>
+      <p><strong>Phone:</strong> (123) 456-7890</p>
+      <div class="map">
+        <img src="https://via.placeholder.com/600x400?text=Map+Placeholder" alt="Map showing shelter location">
+      </div>
+    </section>
+
+    <!-- Donation & Volunteer Information Section -->
+    <section id="donate-volunteer">
+      <h2>Donation & Volunteer Information</h2>
+      <p>If you would like to support our shelter, please consider donating or volunteering:</p>
+      <ul>
+        <li><strong>Donate:</strong> Click <a href="#">here</a> to donate online.</li>
+        <li><strong>Volunteer:</strong> Fill out our volunteer form <a href="#">here</a> to get involved.</li>
+      </ul>
+    </section>
+
+    <!-- Project User Stories Section -->
+    <section id="project-info">
+      <h2>Project User Stories</h2>
+      <ul>
+        <li><strong>User Story 1:</strong> As an animal lover, I want to browse adoptable pets so that I can find a pet to adopt.</li>
+        <li><strong>User Story 2:</strong> As a potential volunteer, I want to see how I can help the shelter so that I can contribute to the cause.</li>
+        <li><strong>User Story 3:</strong> As a donor, I want to find an easy way to donate online so that I can support the shelter financially.</li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Animal Shelter. All rights reserved.</p>
+  </footer>
+</body>
+</html>
