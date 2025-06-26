@@ -42,3 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <p>${pet.description}</p>
         <p><em>Status: ${pet.status}</em></p>
       `;
+      // Add click event to show an alert with the pet's name
+      div.addEventListener('click', () => alert(`You selected ${pet.name}`));
+      petList.appendChild(div);
+    });
+  }
