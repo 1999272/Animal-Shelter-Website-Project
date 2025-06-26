@@ -24,3 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .catch(error => console.error('Error fetching pets:', error));
   }
+
+  // Render the list of pets to the DOM
+  function renderPets(pets) {
+    petList.innerHTML = ''; // Clear previous pets
+    pets.forEach(pet => {
+      const div = document.createElement('div');
+      div.className = 'pet-card';
