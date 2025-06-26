@@ -47,3 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
       petList.appendChild(div);
     });
   }
+
+  // Event listener for changing the pet type filter
+  typeFilter.addEventListener('change', () => fetchPets(typeFilter.value));
