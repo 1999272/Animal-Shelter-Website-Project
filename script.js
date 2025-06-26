@@ -52,3 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
   typeFilter.addEventListener('change', () => fetchPets(typeFilter.value));
   // Event listener for refreshing the pet list
   refreshBtn.addEventListener('click', () => fetchPets(typeFilter.value));
+
+  fetchPets(); // Initial load of pets
+});
