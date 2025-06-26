@@ -31,3 +31,14 @@ document.addEventListener('DOMContentLoaded', () => {
     pets.forEach(pet => {
       const div = document.createElement('div');
       div.className = 'pet-card';
+      // Populate the pet card with pet details
+      div.innerHTML = `
+        <img src="${pet.image}" alt="${pet.name}">
+        <h3>${pet.name}</h3>
+        <p><strong>Breed:</strong> ${pet.breed}</p>
+        <p><strong>Age:</strong> ${pet.age}</p>
+        <p><strong>Gender:</strong> ${pet.gender}</p>
+        <p><strong>Size:</strong> ${pet.size}</p>
+        <p>${pet.description}</p>
+        <p><em>Status: ${pet.status}</em></p>
+      `;
