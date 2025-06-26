@@ -79,3 +79,31 @@ main {
   color: #555;
 }
 
+/* Contact & Donate Styles */
+section#contact-location, section#donate-volunteer {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+section#contact-location:hover, section#donate-volunteer:hover {
+  transform: translateY(-5px);
+}
+section h2 {
+  color: #004d40;
+  border-bottom: 2px solid #00796b;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+section#donate-volunteer a {
+  color: #00796b;
+  text-decoration: none;
+  border-bottom: 1px dashed transparent;
+  transition: border-bottom 0.3s;
+}
+section#donate-volunteer a:hover {
+  border-bottom: 1px dashed #00796b;
+}
