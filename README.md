@@ -43,6 +43,7 @@ Animal Shelter SPA is a responsive, interactive front-end application built with
 2. Start the mock API server:
 
 -json-server --watch db.json --port 3000
+
 -This serves endpoints at http://localhost:3000/pets.
 
 ### Running the Application
