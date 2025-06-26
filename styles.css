@@ -1,0 +1,17 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e0f7fa, #fffde7);
+  color: #333;
+}
+header, footer {
+  background: #00796b;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+main {
+  padding: 2rem;
+}
