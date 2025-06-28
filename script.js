@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
    // Fetch pets from the server, optionally filtered by type
   function fetchPets(type = 'all') {
-    const baseURL = 'http://localhost:3000/pets';
+    const baseURL = 'https://json-server-o7fu.onrender.com';
     const url = type === 'all' ? baseURL : `${baseURL}?type=${type}`;
 
     console.log('Fetching:', url);
